@@ -1,49 +1,180 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="en">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>reveal.js – The HTML Presentation Framework</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+	<!-- Any section element inside of this container is displayed as a slide -->
+	<div class="slides">
+		<section>
+			<h1>述职报告</h1>
+			<h3></h3>
+			<p>
+				<small>Created by 万能小哥技术部中心冲王鹏</small>
+			</p>
+		</section>
+
+		<section>
+			<h2>形而上</h2>
+			<p>
+				7月底来到公司，吸引我的一种公司理念，一个有潜力有发展的互联网公司，不仅仅会局限于某个行业去盈利，赚钱，而是提供一种服务，更多更广更及时更标准的服务，从而改变人的衣食住行方面的习惯
+			</p>
+		</section>
+
+		<!-- Example of nested vertical slides -->
+		<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+			<section>
+				<h2>形而下</h2>
+
+				<p>1.钉钉ISV</p>
+				<p class="fragment">2.万能小哥2.0</p>
+				<p class="fragment">分布式产品体系</p>
+				<p class="fragment">静态资源服务器</p>
+				<p class="fragment">支付等微服务</p>
+				<p class="fragment">标准化的第三方订单对接</p>
+				<p class="fragment">3.线上运维部署准备</p>
+				<br>
+
+			</section>
+			<section>
+				<h2>项目钉钉ISV——万能小哥钉钉企服</h2>
+				<p>8月初——9月中旬</p>
+				<p>由于钉钉ISV开发的独立性，以及未来对整个万能小哥互联网产品体系的规划，尝试将原先的集中式系统转化为分布式，引入了微服务的开发模式，服务运行在独立进程中，通过一些轻量级交互机制来通信。在9月中旬完成了产品提交。</p>
+			</section>
+
+
+			<section>
+				<h2>万能小哥2.0</h2>
+				<p>9月中旬——12月底</p>
+
+				<p>按照我们制定的分布式体系开发，从终端应用层 到 服务层到 数据源。在了解公司技术积累和现阶段的需求之后，对一些功能进行变更，比如采用OSS进行静态资源存储和CDN分发等，对一些服务进行了微服务的封装，比如第三方订单，支付，保险，SMS，定时任务等。12月底完成对各个终端app以及各个应用的功能支持</p>
+				<br>
+			</section>
+			<section>
+				<h2>分布式产品体系</h2>
+				<p>
+					<a href="#" class="navigate-down">
+						<img width="1024" height="600" data-src="http://image.wannengxiaoge.com/2cbac4fb5e0f42ba9bf465ab5370ebf3.png" alt="Down arrow">
+					</a>
+				</p>
+			</section>
+
+			<section>
+				<h2>标准化的第三方订单对接</h2>
+				<p>
+					<a href="#" class="navigate-down">
+						<img width="1024" height="600" data-src="http://image.wannengxiaoge.com/5bbb7439a2594b83b427757077b50bd5.png" alt="Down arrow">
+					</a>
+				</p>
+			</section>
+
+			<section>
+				<h2>上线前准备以及运维部署</h2>
+				<p>1月初——1月底</p>
+				<p>
+					SKU基表、服务分类、技能分类、模版，开城，商户等正式数据的准备，搭建配置服务器环境，适应不同的JDK环境
+				</p>
+			</section>
+		</section>
+		<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+			<section>
+				<h2>新年伊始</h2>
+			</section>
+
+			<section>
+
+				<p>
+					产品方向，我们将开发数据平台，分析系统以及定制化优惠活动和定制化产品。
+				</p>
+
+			</section>
+
+
+			<section>
+
+				<p>技术方向</p>
+				<p class="fragment">1.开发技术:分布式的微服务架构，跨服务跨平台的数据交互，多端同步，多语言的开发</p>
+				<p class="fragment">2.部署技术:基于web的自动化部署  负载均衡 多地容灾  静态资源独立CDN</p>
+				<p class="fragment">3.架构演化:基于微服务的水平扩张和基于ECS的弹性扩容</p>
+				<p class="fragment">4.开发模式:实现敏捷开发 一方面基础平台功能的积累比如元数据等，另一方面从前端到后台的成熟健壮的模版化
+				</p>
+			</section>
+		</section>
+
+
+
+		<section style="text-align: left;">
+			<h1>THE END</h1>
+			<p>
+				3Q
+			</p>
+		</section>
+
+	</div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+						  controls: true,
+						  progress: true,
+						  history: true,
+						  center: true,
+
+						  transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+						  // More info https://github.com/hakimel/reveal.js#dependencies
+						  dependencies: [
+							  { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+							  { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+							  { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+							  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+							  { src: 'plugin/search/search.js', async: true },
+							  { src: 'plugin/zoom-js/zoom.js', async: true },
+							  { src: 'plugin/notes/notes.js', async: true }
+						  ]
+					  });
+
+</script>
+
+</body>
 </html>
