@@ -1,0 +1,79 @@
+.reveal h1{
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 4.5%;
+
+}
+.reveal .section1 p{
+    font-size: 0.53em;
+    text-align: center;
+}
+
+.reveal h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+.reveal p{
+    font-size: 0.48em;
+    text-align: left;
+    line-height: 1.8;
+    width: 80%;
+    margin:25px auto;
+}
+
+.section2 span{
+    display: block;
+    text-indent: 4%;
+    font-size:0.4em;
+    line-height: 2;
+    width: 80%;
+    margin:0 auto;
+    text-align: left;
+}
+.reveal .section2 p{
+    font-size: 0.5em;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+
+}
+.section6 span{
+    display: block;
+    text-indent: 4%;
+    font-size:0.5em;
+    line-height: 2.2;
+    width: 80%;
+    margin:0 auto;
+    text-align: left;
+}
+.reveal .section6 p{
+    font-size: 0.85em;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+    line-height: 2.2;
+}
+
+.section3 h2{
+    font-size: 0.85em;
+    margin-bottom: 6%;
+}
+.section3 p{
+    font-size: 0.46em;
+    letter-spacing: 1px;
+}
+.section4 img{
+    width: 100%;
+    height: inherit;
+}
+.section4 h2{
+    font-size: 0.85em;
+    margin-bottom: 2%;
+}
+.section5 h2{
+    font-size: 1.5em;
+    letter-spacing: 15px;
+}
+.section5 p{
+    font-size: 0.56em;
+    letter-spacing: 2px;
+}
